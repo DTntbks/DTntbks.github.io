@@ -152,6 +152,65 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Socket初步认识" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<h2 id="Socket初步认识"><a href="#Socket初步认识" class="headerlink" title="Socket初步认识"></a>Socket初步认识</h2><h1 id="1-TCP-IP-UDP是什么"><a href="#1-TCP-IP-UDP是什么" class="headerlink" title="1.TCP/IP,UDP是什么"></a>1.TCP/IP,UDP是什么</h1><p>​        TCP/IP（Transmission Control Protocol/Internet Protocol）即传输控制协议/网间协议，是一个工业标准的协议集，它是为广域网（WANs）设计的。</p>
+<p>​        UDP（User Data Protocol，用户数据报协议）是与TCP相对应的协议。它是属于TCP/IP协议族中的一种。</p>
+<p>TCP/IP协议参考模型把所有的TCP/IP系列协议归类到四个抽象层中</p>
+<pre><code>    + 应用层：TFTP，HTTP，SNMP，FTP，SMTP，DNS，Telnet 等等
+    + 传输层：TCP，UDP
+
+    + 网络层：IP，ICMP，OSPF，EIGRP，IGMP
+    + 数据链路层：SLIP，CSLIP，PPP，MTU</code></pre>
+<p>每一抽象层建立在低一层提供的服务上，并且为高一层提供服务</p>
+<h1 id="2-Socket是什么"><a href="#2-Socket是什么" class="headerlink" title="2.Socket是什么"></a>2.Socket是什么</h1><p>​        Socket是应用层与TCP/IP协议族通信的中间软件抽象层，它是一组接口。在设计模式中，Socket其实就是一个门面模式，它把复杂的TCP/IP协议族隐藏在Socket接口后面，对用户来说，一组简单的接口就是全部，让Socket去组织数据，以符合指定的协议。</p>
+<p>​       Socket起源于Unix，而Unix/Linux基本哲学之一就是“一切皆文件”，都可以用“打开open –&gt; 读写write/read –&gt; 关闭close”模式来操作。而socket则可以视为使用该模式的一个实例。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/11/14/Socket%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
